@@ -8,13 +8,9 @@ public class Test
 	public static void main(String[] args) 
 	{
         try 
-        {
-        	System.setProperty("webdriver.firefox.marionette","C:\\Selenium\\geckodriver.exe");
-        	Common_Functions.LauchWebLink("http://toolsqa.com/automation-practice-table/","Facebook – log in or sign up");
-    		String s = Common_Functions.GetTableVal("xpath",".//*[@id='content']","Country","UAE","City");
-        	System.out.println("Value of Cell is " + s);
-        	
+        {  	
         	Common_Functions.LauchWebLink("https://www.facebook.com","Facebook – log in or sign up");
+        	//Common_Functions.LauchWebLink("https://en-gb.facebook.com","Facebook – log in or sign up");
             Common_Functions.EnterTextBoxVal("name", "email","sharadmagar450@gmail.com");
             WebElement Element = Common_Functions.FindElementBySingleTag("name", "email");
             Common_Functions.SendKeys(Element, "Keys.TAB");

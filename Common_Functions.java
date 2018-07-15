@@ -7,32 +7,73 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Common_Functions {
 
 	private static WebDriver GetDriver(String Browser)
 	{
-		if(Browser=="FireFox")
+		try
 		{
-			WebDriver DriverFireFox = new FirefoxDriver();
-			return DriverFireFox;
+			if (Browser == "FireFox")
+			{
+				System.setProperty("webdriver.firefox.marionette", "C:\\Selenium\\geckodriver.exe");
+				FirefoxProfile profile = new FirefoxProfile();
+				DesiredCapabilities dc = DesiredCapabilities.firefox();
+				profile.setAcceptUntrustedCertificates(false);
+				profile.setAssumeUntrustedCertificateIssuer(true);
+				profile.setPreference("browser.download.folderList", 2);
+				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
+				profile.setPreference("browser.download.manager.showWhenStarting", false);
+				profile.setPreference("browser.download.dir", "C:\\Downloads");
+				profile.setPreference("browser.download.downloadDir", "C:\\Downloads");
+				profile.setPreference("browser.download.defaultFolder", "C:\\Downloads");
+				profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
+						"text/anytext ,text/plain,text/html,application/plain");
+				dc = DesiredCapabilities.firefox();
+				dc.setCapability(FirefoxDriver.PROFILE, profile);
+
+				WebDriver DriverFireFox = new FirefoxDriver(dc);
+				DriverFireFox.manage().window().maximize();
+				return DriverFireFox;
+			}
+			else if (Browser == "Chrome") 
+			{
+				DesiredCapabilities handlSSLErr = DesiredCapabilities.chrome();
+				handlSSLErr.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+				System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
+				WebDriver DriverChrome = new ChromeDriver();
+				DriverChrome.manage().window().maximize();
+				return DriverChrome;
+			}
+			else if (Browser == "IE")
+			{
+				System.setProperty("webdriver.ie.driver", "C:\\Selenium\\IEDriverServer.exe");
+				DesiredCapabilities capabilities = new DesiredCapabilities();
+				capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+				capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+				WebDriver DriverExplorer = new InternetExplorerDriver(capabilities);
+				DriverExplorer.manage().window().maximize();
+				return DriverExplorer;
+			}
+			else
+			{
+				return null;
+			}
 		}
-		else if(Browser=="Chrome")
+		catch(Exception ee)
 		{
-			WebDriver DriverChrome = new ChromeDriver();
-			return DriverChrome;
-		}
-		else
-		{
-			WebDriver DriverExplorer = new InternetExplorerDriver();
-			return DriverExplorer;
-		}
-		
+			System.out.println(ee);
+			return null;
+		}	
 	}
 	
-	private static WebDriver driver = GetDriver("FireFox");
+	private static WebDriver driver = GetDriver("Chrome");
 	
 	public static WebElement FindElementBySingleTag(String FindElementBy, String ElementVal)
 	{
