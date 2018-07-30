@@ -1,0 +1,584 @@
+Question 1
+Select the operating system which is NOT supported by Selenium IDE.
+Answer choices	Correct	Your choice	Users statistics
+Unix			49%
+Linux	 	 	7%
+Windows	 	 	3%
+Solaris	 	 	38%
+This question was answered 1688 times
+
+Your score: 10
+
+
+Question 2
+The Selenium RC is used
+Answer choices	Correct	Your choice	Users statistics
+To run your test against different browsers (except HtmlUnit) on different operating systems.			58%
+To create tests with little or no prior knowledge in programming.	 	 	8%
+To test a web application against Firefox only.	 	 	15%
+To run a huge test suite, that can be executed on multiple machines.	 	 	17%
+This question was answered 1237 times
+
+Your score: 10
+
+
+Question 3
+Out of the following which can only test web applications
+Answer choices	Correct	Your choice	Users statistics
+QTP	 	 	4%
+Selenium			95%
+This question was answered 1212 times
+
+Your score: 10
+
+
+Question 4
+Select the component which is NOT part of Selenium suite.
+Answer choices	Correct	Your choice	Users statistics
+Selenium IDE	 	 	6%
+Selenium RC	 	 	4%
+SeleniumGrid	 	 	10%
+Selenium Web			80%
+This question was answered 1186 times
+
+Your score: 10
+
+
+Question 5
+Select the language which is NOT supported by the Selenium RC.
+Answer choices	Correct	Your choice	Users statistics
+ASP			78%
+Java	 	 	1%
+C#	 	 	4%
+PHP	 	 	17%
+This question was answered 1179 times
+
+Your score: 10
+
+
+Question 6
+Select the name which is NOT the type of the locaters.
+Answer choices	Correct	Your choice	Users statistics
+ID	 	 	1%
+Name	 	 	1%
+Password			94%
+Link Text	 	 	4%
+This question was answered 1173 times
+
+Your score: 10
+
+
+********Question 7
+The Web driver is used 
+Answer choices	Correct	Your choice	Users statistics
+To execute tests on the HtmlUnit browser.		 	55%
+To design a test using Selenese	 		19%
+To quickly create tests	 	 	14%
+To test a web application against Firefox only.	 	 	12%
+This question was answered 1152 times
+
+Your score: 0
+
+
+Question 8
+The Selenium IDE is used
+Answer choices	Correct	Your choice	Users statistics
+To create customized test results.	 	 	10%
+To deploy your tests across multiple environments using Selenium Grid	 	 	10%
+To test with HTMLUnit	 	 	8%
+To test a web application against Firefox only.			72%
+This question was answered 1124 times
+
+Your score: 10
+
+
+***********Question 9
+Select the Browser which is supported by Selenium IDE
+Answer choices	Correct	Your choice	Users statistics
+Google chrome	 	 	4%
+Opera mini	 		3%
+Mozilla Firefox		 	90%
+Internet Explorer	 	 	3%
+This question was answered 1109 times
+
+Your score: 0
+
+
+Question 10
+Selenium IDE stands for
+Answer choices	Correct	Your choice	Users statistics
+Selenium Intialization Development Environment	 	 	1%
+Selenium Interrelated Development Environment	 	 	0%
+Selenium Integrated Development Environment			98%
+Selenium Information Development Environment	 	 	0%
+This question was answered 1097 times
+
+Your score: 10
+
+
+Question 11
+Is Web Driver a component of the Selenium?
+Answer choices	Correct	Your choice	Users statistics
+No	 	 	11%
+Yes			89%
+This question was answered 1098 times
+
+Your score: 10
+
+
+Question 12
+Select the command which is NOT a type of assertion in Selenium IDE.
+Answer choices	Correct	Your choice	Users statistics
+Assert	 	 	4%
+Verify	 	 	12%
+WaitFor	 	 	29%
+Wait			55%
+This question was answered 1095 times
+
+Your score: 10
+
+
+Question 13
+Select the method which selects the option at the given index.
+Answer choices	Correct	Your choice	Users statistics
+selectByIndex()			88%
+selectIndex()	 	 	4%
+selectedByIndex()	 	 	6%
+selectByIndexes()	 	 	1%
+This question was answered 1085 times
+
+Your score: 10
+
+
+Question 14
+The Selenium can
+Answer choices	Correct	Your choice	Users statistics
+access controls within the desktop	 	 	1%
+both web and desktop applications	 	 	7%
+only test web applications			92%
+This question was answered 1076 times
+
+Your score: 10
+
+
+Question 15
+The Selenium
+Answer choices	Correct	Your choice	Users statistics
+Provides professional customer support	 	 	3%
+Test Reports are generated automatically	 	 	10%
+Comes with a built-in object repository	 	 	8%
+Cannot access elements outside of the web application under test			78%
+This question was answered 1065 times
+
+Your score: 10
+
+
+Question 16
+Can Google chrome be supported by Selenium IDE?
+Answer choices	Correct	Your choice	Users statistics
+Yes	 	 	18%
+No			82%
+This question was answered 1064 times
+
+Your score: 10
+
+
+Question 17
+Can Unix operating system be supported by Selenium IDE?
+Answer choices	Correct	Your choice	Users statistics
+No			75%
+Yes	 	 	25%
+This question was answered 1058 times
+
+Your score: 10
+
+
+Question 18
+Which command can be used to enter values onto text boxes?
+Answer choices	Correct	Your choice	Users statistics
+sendsKeys()	 	 	4%
+sendKey()	 	 	5%
+sendKeys	 	 	2%
+sendKeys()			89%
+This question was answered 1053 times
+
+Your score: 10
+
+
+Question 19
+Select the language which is supported by The Selenium Web Driver
+Answer choices	Correct	Your choice	Users statistics
+Perl			72%
+Sql	 	 	8%
+ASP	 	 	17%
+Cobol	 	 	3%
+This question was answered 1044 times
+
+Your score: 10
+
+
+Question 20
+Which Selenium component supports All Operating System?
+Answer choices	Correct	Your choice	Users statistics
+Selenium Generator	 	 	3%
+Selenium IDE	 	 	6%
+Selenium WebDriver			91%
+This question was answered 1045 times
+
+Your score: 10
+
+
+Question 21
+Select the command in Selenium IDE used to open a page using the URL.
+Answer choices	Correct	Your choice	Users statistics
+OpenRecord	 	 	8%
+Open			80%
+OpenText	 	 	10%
+OpenTable	 	 	1%
+This question was answered 1020 times
+
+Your score: 10
+
+
+Question 22
+In case of Selenium IDE, the Source view shows your script in 
+Answer choices	Correct	Your choice	Users statistics
+DHTML format	 	 	3%
+J2EE format	 	 	4%
+XML format	 	 	29%
+HTML format.			64%
+This question was answered 1010 times
+
+Your score: 10
+
+
+Question 23
+The Actions commands
+Answer choices	Correct	Your choice	Users statistics
+are commands that directly interact with page elements.			79%
+are commands that allow you to store values to a variable.	 	 	8%
+are commands that verify if a certain condition is met.	 	 	12%
+This question was answered 1011 times
+
+Your score: 10
+
+
+Question 24
+Select the command which is used to check the presence of a certain element.
+Answer choices	Correct	Your choice	Users statistics
+verifyTable	 	 	2%
+verifyTitlePresent	 	 	3%
+verifyTextPresent	 	 	7%
+verifyElementPresent			87%
+This question was answered 1002 times
+
+Your score: 10
+
+
+Question 25
+Select the command which is used to print a string value or a variable in Selenium IDE.
+Answer choices	Correct	Your choice	Users statistics
+The 'display' command	 	 	13%
+The 'echo' command			64%
+The 'print' command	 	 	20%
+The 'printr' command	 	 	2%
+This question was answered 968 times
+
+Your score: 10
+
+Question 26
+Which component of Selenium can create customized test results.
+Answer choices	Correct	Your choice	Users statistics
+Web driver			67%
+Selenium RC	 	 	8%
+Selenium IDE	 	 	13%
+Selenium Grid	 	 	12%
+This question was answered 965 times
+
+Your score: 10
+
+
+Question 27
+Select the command which is used to compare the contents of a table with expected values.
+Answer choices	Correct	Your choice	Users statistics
+verifyTables	 	 	7%
+verifyTableData	 	 	39%
+verifyTable			38%
+verifyTableCell	 	 	15%
+This question was answered 948 times
+
+Your score: 10
+
+
+Question 28
+Select the command which is used to pause execution until the specified element becomes present.
+Answer choices	Correct	Your choice	Users statistics
+waitForElementPresent			93%
+waitForPagePresent	 	 	4%
+waitForTablePresent	 	 	2%
+waitForFieldPresent	 	 	2%
+This question was answered 932 times
+
+Your score: 10
+
+
+Question 29
+Select the command that will NOT wait for a new page to load before moving onto the next command.
+Answer choices	Correct	Your choice	Users statistics
+clickAndWait	 	 	24%
+selectAndType			60%
+typeAndWait	 	 	5%
+selectAndWait	 	 	11%
+This question was answered 912 times
+
+Your score: 10
+
+
+Question 30
+Select the command which is used to pause execution until the page is loaded completely.
+Answer choices	Correct	Your choice	Users statistics
+waitForPageToLoad			68%
+waitForElementPresent	 	 	18%
+waitForPage	 	 	8%
+waitForLoad	 	 	5%
+This question was answered 906 times
+
+Your score: 10
+
+
+Question 31
+What can be used to test Flex/Flash applications using Selenium
+Answer choices	Correct	Your choice	Users statistics
+FlexUISelenium			35%
+FlexUI	 	 	22%
+UIFlexSelenium	 	 	12%
+SeleniumFlex	 	 	29%
+This question was answered 862 times
+
+Your score: 10
+
+
+Question 32
+Select the command which is used to compare the actual page title with an expected value.
+Answer choices	Correct	Your choice	Users statistics
+verifyTitle			92%
+verifiedTitle	 	 	2%
+verifyTitles	 	 	5%
+verifiedTitles	 	 	0%
+This question was answered 874 times
+
+Your score: 10
+
+
+Question 33
+Select the command which is NOT used in verifying page elements .
+Answer choices	Correct	Your choice	Users statistics
+verifyElementPresent	 	 	9%
+verifyElementRight			42%
+verifyElementNotPresent	 	 	25%
+verifyElementPositionLeft	 	 	23%
+This question was answered 853 times
+
+Your score: 10
+
+
+Question 34
+Select the tab which gives feedback and other useful information when executing tests.
+Answer choices	Correct	Your choice	Users statistics
+Information	 	 	17%
+Feedback	 	 	21%
+Reference			48%
+Element	 	 	12%
+This question was answered 833 times
+
+Your score: 10
+
+
+Question 35
+What is TestNG?
+Answer choices	Correct	Your choice	Users statistics
+TestNextGeneration			86%
+TestNewGenerlization	 	 	3%
+TestNewGeneration	 	 	8%
+TestNextGenerations	 	 	2%
+This question was answered 833 times
+
+Your score: 10
+
+
+Question 36
+Select the variation which finds elements based on the driver's underlying CSS selector engine in Web driver Selenium.
+Answer choices	Correct	Your choice	Users statistics
+By.cssSelected	 	 	1%
+By.cssSelection	 	 	2%
+By.cssSelector			96%
+By.Selectcs	 	 	1%
+This question was answered 824 times
+
+Your score: 10
+
+
+Question 37
+Select the variation which locates elements by the value of the "name" attribute in Web driver Selenium
+Answer choices	Correct	Your choice	Users statistics
+By.name			85%
+By.nametag	 	 	2%
+By.tagname	 	 	11%
+By.nametags	 	 	0%
+This question was answered 820 times
+
+Your score: 10
+
+
+Question 38
+Select the tab that shows which command Selenium IDE is currently executing.
+Answer choices	Correct	Your choice	Users statistics
+Variable	 	 	12%
+Data	 	 	12%
+Information	 	 	20%
+Info			55%
+This question was answered 790 times
+
+Your score: 10
+
+
+Question 39
+Which is a faster component between the SeleniumWeb driver and Selenium RC?
+Answer choices	Correct	Your choice	Users statistics
+Selenium RC	 	 	11%
+Selenium Web driver			88%
+This question was answered 799 times
+
+Your score: 10
+
+
+Question 40
+Select the variation which locates elements by the value of their "id" attribute in Web Driver Selenium
+Answer choices	Correct	Your choice	Users statistics
+By.id			98%
+By.idno	 	 	1%
+By.id_no	 	 	1%
+By.tag_id	 	 	0%
+This question was answered 791 times
+
+Your score: 10
+
+
+Question 41
+Select the Get command which fetches the inner text of the element that you specify in Web driver Selenium.
+Answer choices	Correct	Your choice	Users statistics
+getinnerText()	 	 	13%
+get_in_Text()	 	 	1%
+get_inner_Text()	 	 	3%
+getText()			84%
+This question was answered 783 times
+
+Your score: 10
+
+
+Question 42
+Which Navigate command takes you forward by one page on the browser's history in Web driver Selenium.
+Answer choices	Correct	Your choice	Users statistics
+navigate.forward()	 	 	25%
+navigate().forward()			72%
+navigate()_forward()	 	 	2%
+navigate_forword()	 	 	1%
+This question was answered 777 times
+
+Your score: 10
+
+
+Question 43
+Which method is used when you want to verify whether a certain check box, radio button, or option in a drop-down box is selected in Web driver Selenium
+Answer choices	Correct	Your choice	Users statistics
+is_Selected()	 	 	2%
+isSelect()	 	 	12%
+isSelected()			85%
+is_Select()	 	 	1%
+This question was answered 771 times
+
+Your score: 10
+
+
+Question 44
+Which Component is used to run multiple tests simultaneously in different browsers and platforms? 
+Answer choices	Correct	Your choice	Users statistics
+Selenium Grid			77%
+Selenium IDE	 	 	2%
+Selenium RC	 	 	6%
+Selenium Webdriver	 	 	15%
+This question was answered 765 times
+
+Your score: 10
+
+
+Question 45
+Select the View which shows your script in HTML format.
+Answer choices	Correct	Your choice	Users statistics
+The Table View	 	 	12%
+The Source View			74%
+The Editor View	 	 	11%
+The Field View	 	 	1%
+This question was answered 752 times
+
+Your score: 10
+
+
+Question 46
+Select the method which clears all selected entries in Web driver Selenium.
+Answer choices	Correct	Your choice	Users statistics
+dselectAll()	 	 	12%
+deselect_All()	 	 	3%
+dselect_All()	 	 	0%
+deselectAll()			84%
+This question was answered 751 times
+
+Your score: 10
+
+
+Question 47
+Method which selects the option which displays the text matching the parameter passed to it 
+Answer choices	Correct	Your choice	Users statistics
+selectVisibleText()	 	 	15%
+selectByVisibleText()			83%
+select_VisibleText()	 	 	0%
+select_ByVisibleText()	 	 	1%
+This question was answered 745 times
+
+Your score: 10
+
+
+Question 48
+Out of the following which is NOT a wait command.
+Answer choices	Correct	Your choice	Users statistics
+waitForTitle	 	 	11%
+waitForTextPresent	 	 	13%
+waitForActive			61%
+waitForAlert	 	 	14%
+This question was answered 734 times
+
+Your score: 10
+
+
+Question 49
+Select the command which retrieves the alert message and stores it in a variable that you will specify.
+Answer choices	Correct	Your choice	Users statistics
+storeAlert			79%
+storedAlert	 	 	11%
+store_Alert	 	 	4%
+storesAlert	 	 	5%
+This question was answered 714 times
+
+Your score: 10
+
+
+Question 50
+Select the method which performs a context-click at the current mouse location.
+Answer choices	Correct	Your choice	Users statistics
+click_Context()	 	 	2%
+context.Click()	 	 	38%
+contextClick()			58%
+context_Click()	 	 	2%
+This question was answered 714 times
+
+Your score: 10
